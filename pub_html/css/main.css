@@ -1,0 +1,84 @@
+@import 'grid.css';
+@import 'normalize.css';
+
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, Verdana, Sans-Serif;
+}
+
+main, footer {
+    max-width: 45rem;
+}
+main {
+
+
+    margin: auto;
+    padding-top: 5.857125rem;
+    width: 100%;
+}
+
+footer {
+    margin: auto;
+    width: 100%;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+a {
+    font-weight: bold;
+    color: #6493ee;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.intrinsic-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.intrinsic-container {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+
+.intrinsic-container-16x9 {
+    padding-bottom: 56.25%;
+}
+
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+    padding-bottom: 75%;
+}
+
+div, figure, h1, h2, p {
+    margin-bottom: 2rem;
+}
+
+iframe {
+    border: 0;
+}
